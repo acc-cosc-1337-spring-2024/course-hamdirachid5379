@@ -1,12 +1,11 @@
 import unittest
 
+from homework.b_in_proc_out.output import get_number
 
 '''
 The file at /src/homework/b_in_proc_out/output has 
 the function get_number.
 '''
-
-
 class Test_Config(unittest.TestCase):
 
     def test_get_number_1(self):
