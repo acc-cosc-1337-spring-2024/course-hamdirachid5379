@@ -3,4 +3,7 @@ def add_numbers(val1, val2): #defining a function_python code that handle one ta
      return val1 + val2
 
 def say_hello(name):
-     print("hello world!" + name) 
+     print("hello world!" + name)
+     
+def subtract_numbers(num1, num2):
+     return num1 - num2
