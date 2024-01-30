@@ -1,3 +1,7 @@
-def multiply_numbers(nam1, nam2):
-   product = nam1 * nam2
-   return product
+import output
+
+result = output.multiply_numbers(5, 5)
+print(result)
+
+result = output.multiply_numbers(6, 6)
+print(result)
