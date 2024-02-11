@@ -1,5 +1,6 @@
 import unittest
 
+
 from src.examples.a_example.devprocess import add_numbers, floating_point_division, subtract_numbers
 
 class Test_Config(unittest.TestCase):
@@ -17,5 +18,9 @@ class Test_Config(unittest.TestCase):
         self.assertEqual((floating_point_division(5, 2), 2.7))
 
     def test_floating_point_division_3(self):
-        sef.assertEqual((floating_point_division(20, 8), 2.5))
+        self.assertEqual((floating_point_division(20, 8), 2.5))
+
+    
+
+    
 
