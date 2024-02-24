@@ -30,6 +30,24 @@ def get_faculty_rating(ratio):
     else:
         faculty_rating = "No Grading available"
         return faculty_rating
+    
+    def sum_of_odd_numbers(num): 
+        counter = 0
+        sum = 0
+        
+        while (counter < num):
+            counter = counter +1
+            if counter % 2 == 1:
+                sum = sum + counter 
+                print(counter)
+                print('sum of odd numbers is: ' + sum )
+
+    
+    while(odd):
+        print("the sum is odd : " + sum)
+    else:
+        print("the sum is not odd :" + sum)
+        
 
 
 

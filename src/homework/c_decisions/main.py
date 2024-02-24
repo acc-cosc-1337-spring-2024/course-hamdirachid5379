@@ -1,6 +1,7 @@
 import decisions
 
-ratio = float(input("Enter a float point number: "))
-faculty_rating = decisions.get_faculty_rating(ratio)
+#decisions.choose_factorial_user_input()
 
-print("Ratio is: " + faculty_rating)
+
+
+
