@@ -1,5 +1,5 @@
 #create a factorial
-from math import factorial
+
 
 
 def get_factorial(num):

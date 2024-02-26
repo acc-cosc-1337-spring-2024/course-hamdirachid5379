@@ -1,36 +1,41 @@
-from math import factorial
+
+
 import repetition
 
-#decisions.while_validate_user_input()
-
-#select Factorial = 1
-#select Sum odd numbers = 2
-#select Exit = 3
 
 
-        
-num =int(input("Enter  1 for Factorial or  2 for Sum of odd numbers or 3  to Exit : " )) 
 
-if 1:
-   factorial = 1 
+while True:
+   print("Menu:")
+   print("1.get factorial")
+   print("2.get sum of odd numbers")
+   print("3.Exit")
+   choice =  input("Enter your choice")
+   if choice =="1":
+      num = int(input("Enter a number for factorial"))
 
-   for i in range(num):
-    
-    factorial *=i+1
-   print("the factorial of" ,num, "is" , factorial)
+      factorial = 1
+      while num > 0 and num < 10:
 
-   if 2:
-      num = int(input("Enter odd numbers: "))
-      counter = 0
+         factorial *=num
+         num -= 1
+         result = factorial
+
+         print(f"factorial of {num} is  {result}")
+
+   elif choice =="2":
+      num = int(input("Enter number for sum of odd numbers: "))
+      
       sum = 0
-      while(counter < num):
-         counter =counter+1
-         if counter % 2 == 1:
-          sum +=1
-      print(counter)
-      print("Sum of odd numbers is " , sum)
+      while(num > 0 and num < 100):
+         #def get_sum_of_odd_numbers(num):
+         if num % 2 == 1:
+            sum += num
+            num -=1
+            result = sum
+            print(f"Sum of odd numbers up to the {num} is:  {result}")
 
-   if 3:
+   elif choice == "3":
       print(" Exiting...")
     
 
